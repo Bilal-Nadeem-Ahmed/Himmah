@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#footer{
+  width:100vw;
+  height: 40px;
+  margin: 0%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  
+}
+#footer a{
+  color: grey;
+  text-decoration: none;
+}
+#footer a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.footeritems{
+  display: flex;
+  width: 20vw;
+ 
+  justify-content: space-evenly;
+
+
+}
+@media screen and (max-width:900px){
+  .footeritems{
+    width:80vw;
+  }
+}
