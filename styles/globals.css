@@ -47,3 +47,8 @@ a {
     width:80vw;
   }
 }
+.big{
+  min-height: 200vh;
+  background-color:green;
+  width: 100vw;
+}

@@ -25,15 +25,16 @@ const Navigation = () => {
             <Nav.Link href="https://www.nottinghampeoplespantry.org/">Nottingham Peoples Pantry</Nav.Link>
             <Nav.Link href="/referral">Covid 19 Chrisis Referral</Nav.Link>
             <NavDropdown title="What We Do" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Tackling Poverty</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Tackling Hate</NavDropdown.Item>
+              <NavDropdown.Item href="/#tacklingpoverty">Tackling Poverty</NavDropdown.Item>
+              <NavDropdown.Item href="/#tacklinghate">Tackling Hate</NavDropdown.Item>
               <NavDropdown.Item href="/foodbank">Food Bank</NavDropdown.Item>
               <NavDropdown.Item href="https://www.nottinghampeoplespantry.org/">Nottingham People's Pantry</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Muslim Memory Project</NavDropdown.Item>
+              <NavDropdown.Item href="/muslimmemoryproject">Muslim Memory Project</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Race & Islamophobia Helpline</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Salaam Shalom Kitchen</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Community Safety Forum</NavDropdown.Item>
+              <NavDropdown.Item href="/#salaamshalomkitchen">Salaam Shalom Kitchen</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/tastytuesday">Tasty Tuesday Photography Club</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contactus">Contact Us</Nav.Link>
           </Nav>

@@ -20,6 +20,10 @@ export default function Home() {
 
       <main className={styles.main}>
       <Navigation/>
+      <div className ={'big'}></div>
+      <div id='tacklingpoverty'>tackling poverty</div>
+      <div id="salaamshalomkitchen"></div>
+      <div id='tacklinghate'>tackling hate</div>
       </main>
 
       <footer className={styles.footer}>
