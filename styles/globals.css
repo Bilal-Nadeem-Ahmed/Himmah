@@ -76,3 +76,13 @@ a {
 
 
 }
+.white-bg{
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+
+
+}

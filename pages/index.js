@@ -4,6 +4,7 @@ import Navigation from '../Components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../Components/Footer';
 import {Carousel} from 'react-bootstrap'
+import Chart from '../Components/chart';
 
 export default function Home() {
   return (
@@ -99,6 +100,9 @@ export default function Home() {
       <div id="salaamshalomkitchen"></div>
       <div id='tacklinghate'>tackling hate</div>
 
+          </div>
+          <div className='white-bg'>
+            <Chart/>
           </div>
       </main>
 
