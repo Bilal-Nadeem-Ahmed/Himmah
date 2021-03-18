@@ -17,52 +17,89 @@ export default function Home() {
   integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
   crossorigin="anonymous"
 />
+<style type="text/css">
+    {`
+    .red{
+     
+      color: red;
+    }
+    .green{
+      color:green;
+    }
+
+    .purple {
+      color:purple;
+
+    }
+    h1{
+      font-size:4.7vw !important;
+      text-shadow: 0px 0px 9px white;
+    }
+    .carousel img{
+      height:60vh !important;
+      width:auto !important;
+    }
+  
+  
+    `}
+  </style>
       </Head>
 
       <main className={styles.main}>
       <Navigation/>
       
-      <div className ={'big'}></div>
-      <div id='tacklingpoverty'>tackling poverty</div>
+         
+        <div className='purple-bg'>
+              <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/images/fb.jpg"
+              alt="First slide"
+            />
+            <Carousel.Caption >
+            
+            <h1 className='purple' >FoodBank</h1>
+              
+              
+              
+              
+            
+              
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/images/pantry.jpg"
+              alt="The peoples pantry"
+            />
+
+            <Carousel.Caption>
+              <h1 className='green'>The Nottingham People's Pantry</h1>
+              
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/images/covid.jpg"
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h1 className='red'>Covid 19 Referral</h1>
+              
+            </Carousel.Caption>
+          </Carousel.Item>
+          </Carousel>
+          </div>
+          <div className='red-bg'>
+          <div id='tacklingpoverty'>tackling poverty</div>
       <div id="salaamshalomkitchen"></div>
       <div id='tacklinghate'>tackling hate</div>
-      <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://source.unsplash.com/random/800x600"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://source.unsplash.com/random/800x600"
-      alt="Second slide"
-    />
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://source.unsplash.com/random/800x600"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+          </div>
       </main>
 
       <footer className={styles.footer}>
