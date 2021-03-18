@@ -101,9 +101,9 @@ export default function Home() {
       <div id='tacklinghate'>tackling hate</div>
 
           </div>
-          <div className='white-bg'>
+         <h1>Food Provided In Feb</h1>
             <Chart/>
-          </div>
+         
       </main>
 
       <footer className={styles.footer}>

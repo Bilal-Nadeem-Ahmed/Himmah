@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    min-width: 100vw;
+    
 }
 
 a {
@@ -68,7 +70,7 @@ a {
 }
 .red-bg{
   height: 60vh;
-  width: 100vw;
+  min-width: 100vw;
   background-color: red;
   display: flex;
   justify-content: center;
@@ -83,6 +85,70 @@ a {
   background-color: white;
   justify-content: center;
   align-items: center;
+padding: 0%;
 
-
+}
+.half{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+}
+canvas{
+ 
+}
+@media screen and (max-width:900px){
+  .green-bg{
+    min-height: 160vh;
+    background-color:green;
+    width: 100vw;
+  }
+  
+  .purple-bg{
+    height: 160vh;
+    width: 100vw;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .red-bg{
+    height: 160vh;
+    min-width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .white-bg{
+    height: 160vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  padding: 0%;
+  
+  }
+  .half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+   padding: 10%;
+  }
+  canvas{
+    min-height: 70vw;
+    min-width: 70vw;
+  }
+ 
 }
