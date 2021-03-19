@@ -50,7 +50,7 @@ export default function Home() {
       <Navigation/>
       
          
-        <div className='purple-bg'>
+        <div className='white-bg'>
               <Carousel>
           <Carousel.Item>
             <img
@@ -95,15 +95,15 @@ export default function Home() {
           </Carousel.Item>
           </Carousel>
           </div>
-          <div className='red-bg'>
+  
+         <h1>Food Provided In Feb</h1>
+            <Chart/>
+            <div className='red-bg'>
           <div id='tacklingpoverty'>tackling poverty</div>
       <div id="salaamshalomkitchen"></div>
       <div id='tacklinghate'>tackling hate</div>
 
           </div>
-         <h1>Food Provided In Feb</h1>
-            <Chart/>
-         
       </main>
 
       <footer className={styles.footer}>
