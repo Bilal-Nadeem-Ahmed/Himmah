@@ -2,7 +2,7 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap'
 const Navigation = () => {
     return ( 
 
-        <Navbar bg="light" fixed='top' expand="lg">
+        <Navbar bg="white" fixed='top' expand="lg">
         <Navbar.Brand href="/"> 
           <img
         src="https://static1.squarespace.com/static/5d944e82da8bd81bea8ea1b7/t/5ee92f1755fd771bd65a283b/1609511342452/?format=1500w"
