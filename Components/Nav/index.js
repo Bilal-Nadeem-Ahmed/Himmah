@@ -7,7 +7,7 @@ const Navigation = () => {
           <img
         src="https://static1.squarespace.com/static/5d944e82da8bd81bea8ea1b7/t/5ee92f1755fd771bd65a283b/1609511342452/?format=1500w"
         width="auto"
-        height="auto"
+        height="50px"
         className="d-inline-block align-top"
         alt=" logo"
       />
