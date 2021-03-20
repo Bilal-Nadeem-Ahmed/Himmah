@@ -37,7 +37,7 @@ export default function Home() {
       text-shadow: 0px 0px 9px white;
     }
     .carousel img{
-      height:60vh !important;
+      height:75vh !important;
       width:auto !important;
     }
   
@@ -50,7 +50,7 @@ export default function Home() {
       <Navigation/>
       
          
-        <div className='white-bg'>
+        
               <Carousel>
           <Carousel.Item>
             <img
@@ -94,7 +94,7 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
           </Carousel>
-          </div>
+          
   
          <h1>Food Provided In Feb</h1>
             <Chart/>
