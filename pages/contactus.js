@@ -20,7 +20,22 @@ export default function Contact() {
 
       <main className={styles.main}>
       <Navigation/>
-      <div>this is the contact page</div>
+        <div className='cont'>
+          <div className='center'>
+            <div>
+            <h1>Find Us At:</h1>
+            <p>Unit 2, Forest Court</p>
+            <p>Gamble Street</p>
+            <p>Nottingham</p>
+            <p>NG7 4EX</p>
+            <p><a href='tel:0115 871 4426'>Tel 0115 871 4426</a></p>
+            <p><a href='mailto:info@himmah.org'>Email: info@himmah.org</a></p>
+            </div>
+          </div>
+          <div className='center'>
+            <p>there will be maps here</p>
+          </div>
+        </div>
       </main>
 
 
