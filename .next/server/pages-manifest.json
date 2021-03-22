@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/referral": "pages/referral.js",
-  "/contactus": "pages/contactus.js"
+  "/contactus": "pages/contactus.js",
+  "/referral": "pages/referral.js"
 }

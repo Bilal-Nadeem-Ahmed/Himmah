@@ -25,7 +25,7 @@ export default function Referral() {
         <div>
           <h1>Covid 19 Referral</h1>
           <br/>
-          <p>Covid-19 Crisis Referral — Himmah</p>
+          <p><b>Organisations, Families and Individuals</b></p>
         </div>
       </div>
       <div className='writing'>
