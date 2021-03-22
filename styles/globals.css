@@ -169,3 +169,22 @@ padding: 0%;
   flex-direction: column;
  width: 50vw;
 }
+.banner{
+  width: 100vw;
+  height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: green;
+}
+.writing{
+  padding: 5% 15%;
+}
+.writing h2{
+  text-align: center;
+}
+.writing a{
+  text-decoration: none;
+  color: black;
+}
