@@ -152,7 +152,9 @@ padding: 0%;
     min-height: 70vw;
     min-width: 70vw;
   }
- 
+ .cont{
+   flex-direction: column;
+ }
 }
 .cont{
   display:flex;

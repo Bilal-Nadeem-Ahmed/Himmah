@@ -3,6 +3,12 @@ import styles from '../styles/Home.module.css'
 import Navigation from '../Components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const style={
+//   width:"600",
+//  height:"600",
+//  border:'0'
+
+}
 
 export default function Contact() {
   return (
@@ -33,7 +39,7 @@ export default function Contact() {
             </div>
           </div>
           <div className='center'>
-            <p>there will be maps here</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2403.400138125376!2d-1.1691622841761173!3d52.95921587989983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c1c411d27dcb%3A0xe85bdb7f95004ecd!2sHimmah%20Food%20bank!5e0!3m2!1sen!2suk!4v1616428131192!5m2!1sen!2suk"  height='400' width='400' allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </main>
