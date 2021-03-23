@@ -26,6 +26,8 @@ export default function Contact() {
 
       <main className={styles.main}>
       <Navigation/>
+      <br/>
+      <h1>Contact Us</h1>
         <div className='cont'>
           <div className='center'>
             <div>
