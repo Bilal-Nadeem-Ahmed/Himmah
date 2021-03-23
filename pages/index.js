@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css'
 import Navigation from '../Components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../Components/Footer';
-import {Carousel} from 'react-bootstrap'
-import Chart from '../Components/chart';
+
+
 
 export default function Home() {
   return (
@@ -49,61 +49,12 @@ export default function Home() {
       <main className={styles.main}>
       <Navigation/>
       
-         
-        
-              <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/fb.jpg"
-              alt="First slide"
-            />
-            <Carousel.Caption >
-            
-            <h1 className='purple' >FoodBank</h1>
-              
-              
-              
-              
-            
-              
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/pantry.jpg"
-              alt="The peoples pantry"
-            />
-
-            <Carousel.Caption>
-              <h1 className='green'>The Nottingham People's Pantry</h1>
-              
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/covid.jpg"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h1 className='red'>Covid 19 Referral</h1>
-              
-            </Carousel.Caption>
-          </Carousel.Item>
-          </Carousel>
-          
-  
-         <h1>Food Provided In Feb</h1>
-            <Chart/>
-            <div className='red-bg'>
+          <div className='red-bg'></div>
           <div id='tacklingpoverty'>tackling poverty</div>
       <div id="salaamshalomkitchen"></div>
       <div id='tacklinghate'>tackling hate</div>
 
-          </div>
+         
       </main>
 
       <footer className={styles.footer}>
