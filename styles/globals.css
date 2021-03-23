@@ -155,6 +155,13 @@ padding: 0%;
  .cont{
    flex-direction: column;
  }
+ .card-container{
+  flex-direction: column;
+ }
+ .card{
+   padding: 10%;
+  
+ }
 }
 .cont{
   display:flex;
@@ -187,4 +194,12 @@ padding: 0%;
 .writing a{
   text-decoration: none;
   color: black;
+}
+.card-container{
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+ 
 }

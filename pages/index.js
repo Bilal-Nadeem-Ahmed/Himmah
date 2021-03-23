@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Navigation from '../Components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../Components/Footer';
+import Cards from '../Components/Cards';
+
 
 
 
@@ -48,6 +50,7 @@ export default function Home() {
 
       <main className={styles.main}>
       <Navigation/>
+    <Cards/>
       
           <div className='red-bg'></div>
           <div id='tacklingpoverty'>tackling poverty</div>
