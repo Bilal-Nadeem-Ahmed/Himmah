@@ -162,6 +162,9 @@ padding: 0%;
    padding: 10%;
   
  }
+ .intro h2{
+   font-size: medium;
+ }
 }
 .cont{
   display:flex;
@@ -202,4 +205,18 @@ padding: 0%;
   align-items: center;
   width: 70vw;
  
+}
+.intro{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/images/image.jpg') ;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 60vh;
+  width: 100vw;
+
 }

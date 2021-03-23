@@ -50,8 +50,17 @@ export default function Home() {
 
       <main className={styles.main}>
       <Navigation/>
+  
+    <div className='intro'>
+      <div>
+      <h2>Himmah is a grass roots community-based initiative tackle poverty, mental wellbeing, racism and social exclusion. </h2>
+      <br/>
+      <h2>We do this through a combination of service provision, campaigning work, arts and education work and collaboration with individuals, communities and organisations. </h2>
+      <br/>
+      <h2>Through our work we can show we meet the needs and aspirations of Nottingham's wider community.</h2>
+      </div>
+    </div>
     <Cards/>
-      
           <div className='red-bg'></div>
           <div id='tacklingpoverty'>tackling poverty</div>
       <div id="salaamshalomkitchen"></div>

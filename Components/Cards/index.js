@@ -2,7 +2,7 @@ import {Card, Button} from 'react-bootstrap'
 const Cards = () => {
     return ( 
         <div className='card-container'>
-           <Card style={{ width: '23rem' }}>
+           <Card className="text-center" style={{ width: '23rem' }}>
                 <Card.Img variant="top" src="/images/fb.jpg" />
                 <Card.Body>
                 <Card.Title>Foodbank</Card.Title>
@@ -12,7 +12,7 @@ const Cards = () => {
                 <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
-          <Card style={{ width: '23rem' }}>
+          <Card className="text-center" style={{ width: '23rem' }}>
                 <Card.Img variant="top" style={{ height: '200px' }} src="/images/covid.jpg" />
                 <Card.Body>
                 <Card.Title>Covid-19 Crisis Referral</Card.Title>
@@ -22,14 +22,14 @@ const Cards = () => {
                 <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
-          <Card style={{ width: '23rem' }}>
+          <Card className="text-center" style={{ width: '23rem' }}>
                 <Card.Img variant="top" src="/images/pantry.jpg" />
-                <Card.Body>
+                <Card.Body >
                 <Card.Title>Nottingham Peoples Pantry</Card.Title>
                 <Card.Text>
                 A place for those on low income to be able to purchase heavily discounted food.   
                 </Card.Text>
-                <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button  style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body> 
           </Card>
         </div>
