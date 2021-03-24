@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/referral": "pages/referral.js",
-  "/contactus": "pages/contactus.js",
-  "/foodbank": "pages/foodbank.js"
+  "/tastytuesday": "pages/tastytuesday.js"
 }

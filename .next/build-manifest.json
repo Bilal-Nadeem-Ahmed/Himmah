@@ -29,20 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contactus": [
+    "/tastytuesday": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/contactus.js"
-    ],
-    "/foodbank": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/foodbank.js"
-    ],
-    "/referral": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/referral.js"
+      "static/chunks/pages/tastytuesday.js"
     ]
   },
   "ampFirstPages": []

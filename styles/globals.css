@@ -161,6 +161,7 @@ padding: 0%;
  }
  .card{
    padding: 10%;
+   margin: 5%;
   
  }
  .intro h2{
@@ -237,7 +238,7 @@ padding: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70vw;
+  width: 80vw;
  
 }
 .intro{
@@ -303,4 +304,29 @@ h1{
 }
 .reftext a{
   color:black;
+}
+.ttbanner{
+  width: 100vw;
+  height: auto;
+  background-image: url('/images/nat.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
+}
+.tttext{
+  padding: 5% ;
+ color: white;
+ text-align: center;
+  
+}
+.ttcontent{
+  padding: 5% 15%;
+  text-align: center;
+}
+.ttcontent ul{
+  text-align: left;
+}
+.ttcontent a{
+  color: black;
+  font-weight: bold;
 }
