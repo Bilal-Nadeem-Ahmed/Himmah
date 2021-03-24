@@ -214,7 +214,12 @@ padding: 0%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: green;
+  color: white;
+  
+  background-image: url('/images/viral.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
  
 }
 .writing{
