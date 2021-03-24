@@ -69,14 +69,14 @@ export default function Home() {
     <br/>
     <Chart/>
     <br/>
-    <h1>Our Work To Tackle Poverty</h1>
+    <h1 id='tacklingpoverty'>Our Work To Tackle Poverty</h1>
     <br/>
     <p className='desc'>
     Food poverty is ‘the inability to access or afford food to make up a healthy diet’. This can include quality as well as quantity of food. Food poverty is a complex issue and we play an important role to play in ensuring that no adult or child is distracted by hunger or poor nutrition, and that people from all communities have access to a healthy diet.
     </p>
     <Poverty/>
     <br/>
-    <h1>Race, education, art and heritage</h1>
+    <h1 id='tacklinghate'>Race, education, art and heritage</h1>
     <br/>
     <p className='desc'>
     Himmah is located in the heart of Hyson Green, one of the most poor and diverse communties in the East Midlands. Our work on poverty is complemented by anti-racist work. Our approach to anti racism is at different levels, challenging institutions, tackling race hate and Islamphobia, working to diversify education, art and education. We have a pluralistic approach working to engage the local people in different ways to tackling racism, sexism, social justice and equality. 

@@ -9,7 +9,7 @@ const Race = () => {
                 <Card.Text>
                 The Tasty Tuesday Photography clubs is a weekly get together for people interested in photography and visual arts.   
                 </Card.Text>
-                <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button href='/tastytuesday' style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
           <Card className="text-center" style={{ width: '23rem' }}>
@@ -19,7 +19,7 @@ const Race = () => {
                 <Card.Text>
                 We are experienced in working with arts, curators and producers to deliver arts events for Muslim communities.      
                 </Card.Text>
-                <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button href='/muslimmemoryproject' style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
           <Card className="text-center" style={{ width: '23rem' }}>
