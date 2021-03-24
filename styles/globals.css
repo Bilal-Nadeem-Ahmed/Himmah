@@ -339,3 +339,17 @@ h1{
   font-weight: bold;
   text-decoration: none;
 }
+.mmpimg{
+  width: 100vw;
+ height: auto;
+  background-image: url('/images/mmp.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
+}
+.mmptxt{
+  padding: 5% ;
+ color: white;
+ text-align: center;
+  
+}
