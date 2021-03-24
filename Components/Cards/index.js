@@ -9,7 +9,7 @@ const Cards = () => {
                 <Card.Text>
                 Over the month of February we provided over a thousand meals through our Foodbank!  
                 </Card.Text>
-                <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button href='/foodbank' style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
           <Card className="text-center" style={{ width: '23rem' }}>
@@ -19,7 +19,7 @@ const Cards = () => {
                 <Card.Text>
                  A page with  links for organisations referring their clients to us   
                 </Card.Text>
-                <Button style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button href='/referral' style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body>
           </Card>
           <Card className="text-center" style={{ width: '23rem' }}>
@@ -29,7 +29,7 @@ const Cards = () => {
                 <Card.Text>
                 A place for those on low income to be able to purchase heavily discounted food.   
                 </Card.Text>
-                <Button  style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
+                <Button href='https://www.nottinghampeoplespantry.org/' style={{backgroundColor:'purple'}} variant="secondary">More Info</Button>
                 </Card.Body> 
           </Card>
         </div>

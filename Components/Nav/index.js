@@ -16,7 +16,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
           <NavDropdown title="Donate"  id="basic-nav-dropdown">
-              <NavDropdown.Item href="/donate/virtualfooddonation">Virtual Food Donation</NavDropdown.Item>
+              <NavDropdown.Item href="https://himmah.wowcommerce.co.uk/category/food/">Virtual Food Donation</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://cafdonate.cafonline.org/3767#!/DonationDetails">Donate Now</NavDropdown.Item>
             </NavDropdown>
@@ -32,7 +32,7 @@ const Navigation = () => {
               <NavDropdown.Item href="/muslimmemoryproject">Muslim Memory Project</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Race & Islamophobia Helpline</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/#salaamshalomkitchen">Salaam Shalom Kitchen</NavDropdown.Item>
+              <NavDropdown.Item href="https://salaamshalomkitchen.co.uk/">Salaam Shalom Kitchen</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/tastytuesday">Tasty Tuesday Photography Club</NavDropdown.Item>
             </NavDropdown>
