@@ -165,12 +165,21 @@ padding: 0%;
  .intro h2{
    font-size: medium;
  }
+ .cont{
+   height: 200vh;
+ }
 }
 .cont{
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
+
+}
+.cont a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 .center{
   display: flex;
@@ -219,4 +228,9 @@ padding: 0%;
   height: 60vh;
   width: 100vw;
 
+}
+.desc{
+  margin: 0 10%;
+  text-align: center;
+  
 }

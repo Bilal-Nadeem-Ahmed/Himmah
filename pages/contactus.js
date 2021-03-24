@@ -28,10 +28,11 @@ export default function Contact() {
       <Navigation/>
       <br/>
       <h1>Contact Us</h1>
+      <br/>
         <div className='cont'>
           <div className='center'>
             <div>
-            <h1>Find Us At:</h1>
+            <h2>Find Us At:</h2>
             <p>Unit 2, Forest Court</p>
             <p>Gamble Street</p>
             <p>Nottingham</p>
