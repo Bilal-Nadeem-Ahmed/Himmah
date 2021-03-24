@@ -321,7 +321,7 @@ h1{
 }
 .ttcontent{
   padding: 5% 15%;
-  text-align: center;
+  text-align: left;
 }
 .ttcontent ul{
   text-align: left;
@@ -329,4 +329,13 @@ h1{
 .ttcontent a{
   color: black;
   font-weight: bold;
+  text-decoration: none;
+}
+.ttcontent h3,  .ttcontent h2{
+  text-align: center;
+}
+.half a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }

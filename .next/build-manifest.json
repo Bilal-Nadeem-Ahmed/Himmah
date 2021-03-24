@@ -29,6 +29,16 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/foodbank": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/foodbank.js"
+    ],
+    "/referral": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/referral.js"
+    ],
     "/tastytuesday": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
