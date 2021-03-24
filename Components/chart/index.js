@@ -9,7 +9,7 @@ export default function Chart () {
         datasets: [
           {
             data: [889, 691, 252, 1120],
-            backgroundColor: ['red','blue','yello','pink'],
+            backgroundColor: ['purple','green','orange','red'],
          
           }
         ]
