@@ -172,6 +172,21 @@ padding: 0%;
  .center{
    margin: 10% 0;
  }
+ .refcont{
+   flex-direction: column;
+   min-height: 140vh;
+   width: 100vw;
+   
+ }
+ .refimg{
+   min-width: 100vw;
+   height: auto;
+ }
+ .reftext{
+   min-width: 100vw;
+   height: auto;
+  
+ }
 }
 .cont{
   display:flex;
@@ -194,12 +209,13 @@ padding: 0%;
 }
 .banner{
   width: 100vw;
-  height:50vh;
+  min-height:30vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: green;
+ 
 }
 .writing{
   padding:  5% 15%;
@@ -240,4 +256,46 @@ padding: 0%;
 }
 h1{
   text-align: center;
+}
+.topimg{
+  width: 100vw;
+  height: auto;
+  background-image: url('/images/fbbanner.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
+}
+.toptxt{
+  padding: 5% ;
+ color: white;
+  
+}
+.refcont{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.refimg{
+  width: 50vw;
+  height: 100%;
+  background-image: url('/images/ref.jpg');
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
+ 
+}
+.reftext{
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.reftext a{
+  color:black;
 }

@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/contactus": "pages/contactus.js",
-  "/referral": "pages/referral.js",
-  "/foodbank": "pages/foodbank.js"
+  "/foodbank": "pages/foodbank.js",
+  "/referral": "pages/referral.js"
 }
