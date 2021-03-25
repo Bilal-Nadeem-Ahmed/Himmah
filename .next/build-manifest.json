@@ -33,21 +33,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/foodbank.js"
-    ],
-    "/muslimmemoryproject": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/muslimmemoryproject.js"
-    ],
-    "/referral": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/referral.js"
-    ],
-    "/tastytuesday": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/tastytuesday.js"
     ]
   },
   "ampFirstPages": []

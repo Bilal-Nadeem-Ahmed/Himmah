@@ -30,7 +30,7 @@ const Navigation = () => {
               <NavDropdown.Item href="/foodbank">Food Bank</NavDropdown.Item>
               <NavDropdown.Item href="https://www.nottinghampeoplespantry.org/">Nottingham People's Pantry</NavDropdown.Item>
               <NavDropdown.Item href="/muslimmemoryproject">Muslim Memory Project</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Race & Islamophobia Helpline</NavDropdown.Item>
+          
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://salaamshalomkitchen.co.uk/">Salaam Shalom Kitchen</NavDropdown.Item>
               <NavDropdown.Divider />

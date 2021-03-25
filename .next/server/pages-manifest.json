@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/referral": "pages/referral.js",
   "/": "pages/index.js",
-  "/foodbank": "pages/foodbank.js",
-  "/tastytuesday": "pages/tastytuesday.js",
-  "/muslimmemoryproject": "pages/muslimmemoryproject.js"
+  "/foodbank": "pages/foodbank.js"
 }
